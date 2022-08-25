@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../javascript/calculate.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Calculadora de Massa Corporal</h1>
+        <div class="subcontainer">
+
+            <p>Height (in cm)</p>
+            <input type="text" id="Height" placeholder="Digite sua altura">
+
+            <p>Weight (in kg) </p>
+            <input type="text" id="Weight" placeholder="Digite seu peso"> <br>
+
+            <button id="Btn" onclick="Calculate()">
+                Calcular
+            </button>
+        </div>
+
+        <div id="result"> </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="Magreza" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <button onclick="document.getElementById('Magreza').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</button>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/img-magreza.jpg'>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="Normal" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('Normal').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/img-saudavel.jpg'>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="Sobrepeso" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <div class="CloseDiv"> 
+                    <button class="CloseModal" onclick="document.getElementById('Sobrepeso').style.display='none'"
+                        class="w3-button w3-display-topright">&times;</button>
+                </div>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/plus.png'>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="Obesidade1" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('Obesidade1').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/img-obeso 1.jpg'>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="Obesidade2" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('Obesidade2').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/img-obeso 2.jpg'>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="Morreu" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('Morreu').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <a href="https://pt-m.iliveok.com/food/dieta-para-obesidade_111759i15882.html">Leia Mais</a>
+                <img src='../imagens/R.jpg'>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
