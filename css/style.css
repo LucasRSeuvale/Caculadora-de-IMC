@@ -34,6 +34,9 @@ body {
 img {
     height: 100px;
     width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 #Magreza,
@@ -65,9 +68,14 @@ img {
     align-items: flex-end;
     margin-left: 350px;
     
+    
 }
 
 .CloseModal{
     font-size: 30px;
     font-weight: 600;
+}
+
+.Scroll {
+  overflow-y: scroll;
 }
