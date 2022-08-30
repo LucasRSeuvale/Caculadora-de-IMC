@@ -14,6 +14,10 @@ body {
     flex-direction: column;
 }
 
+#Btn{
+    text-align: center;
+}
+
 .container {
     margin-right: 100px;
     margin-left: 100px;
@@ -32,11 +36,13 @@ body {
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     text-align: center;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 10px;
+
 }
 
 #Magreza,
@@ -66,16 +72,26 @@ img {
 .CloseDiv{
     flex: 1;
     align-items: flex-end;
-    margin-left: 350px;
-    
+    margin-left: 340px;
+    position: absolute;
     
 }
 
 .CloseModal{
     font-size: 30px;
     font-weight: 600;
+    height: 30px;
+    padding-bottom: 30px;
+    border: none;
+    background: transparent;
+    
+
 }
 
 .Scroll {
-  overflow-y: scroll;
+  overflow-y: auto;
+}
+
+.texto {
+   text-align: justify; 
 }
